@@ -1,0 +1,95 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+*{
+    font-family: 'Gelasio';
+} */
+html {
+    height: auto;
+    margin: 0;
+  }
+/* Bordure du body */
+body {
+  border-width: 10px;
+  border-style: solid;
+  border-image: linear-gradient(
+      180deg,
+      rgba(59, 0, 129, 1) 1%,
+      rgba(80, 7, 99, 1) 35%,
+      rgba(216, 34, 205, 1) 100%
+    )1;
+    min-height: calc(100vh - 0px);
+    margin:0;
+    overflow-x: hidden;
+    background-image: url(itemsB/background-bird.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#bg{
+  background-image: none;
+}
+/*En-tête du titre*/
+#header{
+    display: flex;
+    justify-content: center;   
+}
+/*Navbar*/
+nav{
+  display: flex;
+  justify-content: flex-end;  
+}
+/* Pied de page */
+.footer{
+    display: flex;
+}
+/*Formulaire*/
+form{
+    margin-left: 25px;
+  width: 20%;
+  margin: auto;
+  backdrop-filter: blur(10px) saturate(2);
+  border-radius: 20px;
+  padding: 2rem;
+}
+form *{
+    margin: 15px;
+
+}
+/*Column container*/
+.row-mid{
+  height: 75vh;
+}
+.row-form{
+  height: 70vh;
+}
+.card{
+  backdrop-filter: blur(10px) saturate(2);
+  border-radius: 20px;
+  padding: 2rem;
+}
+/*Button nav*/         
+.btn-grad {
+    background-image: linear-gradient(to right, #ff00cc 0%, #333399  51%, #ff00cc  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  #btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn-primary{
+    margin-top: 18px;
+  }
+  
+:root{
+  --bs-danger-rgb: 13,202,214;
+}
