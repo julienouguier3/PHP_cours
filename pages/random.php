@@ -49,12 +49,13 @@ function addition ($x, $y){
   $res = addition($first, $second);
   $res_end = multiplication($res, $third);
   $result = multiplication(addition($first,$second), $third);
-  var_dump($first);
-  var_dump($second);
-  var_dump($res);
-  var_dump($result);
+//  var_dump($first);
+//  var_dump($second);
+//  var_dump($res);
+//  var_dump($result);
 
 //===================== afficher chaque lettre du mot "rétroviseur" ===================//
+echo "<br>"
 $word = "rétroviseur";
 $voyelle = "aeiouy";
 function letter (){
@@ -81,3 +82,13 @@ for ($i=0; $i < strlen($word); $i++){
         }
     }
 }
+//==========================tableau keys = mois, value = day=======/
+echo "<br>";
+$annee = array("Janvier" =>31, "Février"=>29, "Mars"=>31,"Avril"=>30,"Mai"=>31,"Juin"=>30,"Juillet"=>31,"Aout"=>31,
+    "Septembre"=>30,"Octobre"=>31,"Novembre"=>30,"Décembre"=>31);
+
+foreach ($annee as $month => $day){
+echo("au moins de" . $month . "qui a" . $day);
+
+}
+var_dump($annee);

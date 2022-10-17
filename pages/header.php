@@ -1,21 +1,7 @@
 
 <?php
 
-//var_dump($_SERVER ['REQUEST_URI']);
-//Donne des noms != pour chaque page
-//switch ($_SERVER ['REQUEST_URI']){
-//    case "/home.php":
-//
-//        break;
-//    case "/aboutmeB.php";
-//
-//        break;
-//    case "/contactB.php";
-//        $title = "Contact";
-//        $desc = "Formulaire de contact";
-//        break;
-//}
-
+session_start();
 
 ?>
 

@@ -1,6 +1,5 @@
-<?php include "header.php" ?>
-
-
+<?php include "header.php";
+?>
 
     <form action="" method="post" class="form-example">
         <div class="form-example">
@@ -49,5 +48,6 @@
 
 
 <?php
-include 'footer.php'
+
+include 'footer.php';
 ?>
