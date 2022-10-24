@@ -47,3 +47,5 @@ Mysql, Oracle, SqlServer
 |Nom <br> Prénom<br>Fonction|Attributs
 
 **Jointure** : Les jointures en SQL permettent d’associer plusieurs tables dans une même requête. Cela permet d’exploiter la puissance des bases de données relationnelles pour obtenir des résultats qui combinent les données de plusieurs tables de manière efficace.
+
+**Domaine** : Définit le type de données d'un enregistrement (booléen, texte, numérique, date, ...).
