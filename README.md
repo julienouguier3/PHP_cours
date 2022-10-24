@@ -28,14 +28,18 @@ Mysql, Oracle, SqlServer
 **Entités** : Objet actrait ou concret de la réalité dont on veut stocker les données (personne, objet, concept, ...).
 
 >_**Attribut** : Propriété, caractéristiques ou qualité d'une entité.
+
 **Domaine de l'attribut** : Ensemble de valeur de l'attribut.
+
 **Classe** : Toutes entités possédants les mêmes caractéristiques.
+
 **Occurence** (instanciation) : Correspond à un indivisu particulier faisant partie d'une entité.
+
 **Idenifiant/Clé** : Attribut ou ensemble d'attributs permettant d'identifier de manière unique et sans ambiguïté les occurences d'une entité._
 
-|Employé |Entité|
+|Employé |Nom de l'Entité|
 |--------|------|
 |Matricule|Identifiant|
-|Nom <br> Prénom<br>Fonction|Attribut
+|Nom <br> Prénom<br>Fonction|Attributs
 
   
