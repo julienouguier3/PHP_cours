@@ -17,7 +17,7 @@
 **SGBD** (système de gestion de base de données) : Logiciel système qui nous permet de stocker, créer, gérer et manipuler nos données dans un support de stockage.
 Mysql, Oracle, SqlServer
 
->_**Moteur SQL** : Réalise les manipulations sur les fichiers physiques afin de les rendres compréhensibles.
+>_**Moteur SQL** : Réalise les manipulations sur les fichiers physiques afin de les rendres compréhensibles._
 
 >_**Catalogue** : Contient les informations/descriptions de notre base de données._
 
