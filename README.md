@@ -19,11 +19,11 @@ Mysql, Oracle, SqlServer
 
 >_**Moteur SQL** : Réalise les manipulations sur les fichiers physiques afin de les rendres compréhensibles.
 
-**Catalogue** : Contient les informations/descriptions de notre base de données.
+>_**Catalogue** : Contient les informations/descriptions de notre base de données._
 
-**Langage de requête** : Permet de faire la demande dans un langage que le SGBD peut comprendre
+>_**Langage de requête** : Permet de faire la demande dans un langage que le SGBD peut comprendre._
 
-**Processeur de requêtes** : Prend la requête pour la transformer en commande pour le moteur SQL qui va ensuite exécuter la commande et retourner le résultat._ 
+>_**Processeur de requêtes** : Prend la requête pour la transformer en commande pour le moteur SQL qui va ensuite exécuter la commande et retourner le résultat._ 
 
 **Modèle Entité-Association** : Il s'agit d'un intermédiaire entre le monde réél et informatique. Sert à automatiser le processus de retranscription des données.
   
